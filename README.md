@@ -5,7 +5,7 @@ Home: http://github.com/bioidiap/bob.learn.activation
 
 Package license: Modified BSD License (3-clause)
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Bindings for bob.machine's Activation functors
 
