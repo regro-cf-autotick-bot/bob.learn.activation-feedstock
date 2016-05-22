@@ -10,7 +10,7 @@ source:
   url: https://pypi.python.org/packages/source/b/bob.learn.activation/bob.learn.activation-{{ version }}.zip
 
 build:
-  number: 1
+  number: 2
   skip: true  # [win]
 
 requirements:
@@ -21,6 +21,7 @@ requirements:
   - bob.blitz
   - bob.core
   - bob.io.base
+  - boost 1.60.*
   - cmake
   - pkg-config
 
@@ -30,6 +31,7 @@ requirements:
   - bob.blitz
   - bob.core
   - bob.io.base
+  - boost 1.60.*
 
 test:
   commands:
