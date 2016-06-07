@@ -7,7 +7,7 @@ package:
 source:
   fn: bob.learn.activation-{{ version }}.zip
   md5: 28425bc09c9a917da8f58192ea9a0f4a
-  url: https://pypi.python.org/packages/source/b/bob.learn.activation/bob.learn.activation-{{ version }}.zip
+  url: https://pypi.io/packages/source/b/bob.learn.activation/bob.learn.activation-{{ version }}.zip
 
 build:
   number: 3
