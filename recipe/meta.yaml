@@ -1,4 +1,4 @@
-{% set version = "2.0.5" %}
+{% set version = "2.0.6" %}
 
 package:
   name: bob.learn.activation
@@ -6,7 +6,7 @@ package:
 
 source:
   fn: bob.learn.activation-{{ version }}.zip
-  md5: efff59dfe2de173f2bb95411a376ceba
+  md5: 55951ede2fe755bddbbae6b915eca83e
   url: https://pypi.io/packages/source/b/bob.learn.activation/bob.learn.activation-{{ version }}.zip
 
 build:
@@ -46,7 +46,7 @@ test:
   - nose
 
 about:
-  home: http://github.com/bioidiap/bob.learn.activation
+  home: https://www.idiap.ch/software/bob/
   license: Modified BSD License (3-clause)
   summary: Bindings for bob.machine's Activation functors
 
