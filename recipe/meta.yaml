@@ -1,4 +1,4 @@
-{% set version = "2.0.7" %}
+{% set version = "2.0.10" %}
 
 package:
   name: bob.learn.activation
@@ -6,7 +6,7 @@ package:
 
 source:
   fn: bob.learn.activation-{{ version }}.zip
-  md5: d60a553cdb4afaed505d1851d8d283ef
+  md5: 38fe508de45f2c64d11159556b220c6a
   url: https://pypi.io/packages/source/b/bob.learn.activation/bob.learn.activation-{{ version }}.zip
 
 build:
